@@ -9,8 +9,14 @@
 		<base href="http:"><!--especifica o endereço original do site-->	
 	</head>
 	<body>
-		<form method="POST" action="">
-			<input type="text" name=""><!--"input" entrada de dados -->	
+
+		<form method="POST" action=""><!--metodo get enviaas informações na url -/- "post" envia as informaçoes internamente ex: em forma de login -/- "action" é pra onde vai ser enviado se não definir ele manda pra dentro da pasta interna ou pra o proprio arquivo -->
+			Usuario:</br>
+			<input type="text" name="usuario"><!--"input" entrada de dados -/- "text" digitar algo "password" enserir senha "radio" seleção "checkbox" -/- "name" pra onde o nome sera enviado --> </br></br>	
+			Senha:</br>
+			<input type="password" name="senha"></br></br>
+			<textarea></textarea>
+			<input type="submit" name="Enviar">
 			
 		</form><!--"form"criar formulario -->
 	</body>
